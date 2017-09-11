@@ -12,4 +12,4 @@ A two to three sentence description of the project goes here.
 - Last, First (Role) email
 
 # App Information
-(More App Information)[app/README.md]
+[More App Information](app/README.md)
