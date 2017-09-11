@@ -1,7 +1,7 @@
 # Team Training Plan
 Below you will find each of our training plans.
 
-# {Member 1 Name}
+## {Member 1 Name}
 Explain your main role on the project here.
 
 - Training Item 1.
