@@ -3,12 +3,9 @@ Below you will find each of our training plans.
 
 <<<<<<< HEAD
 ## {Sam Ruben}
-I will be one of the main coders along with Ben Sack.  We will be developing the overall functionaly and design of our idea
-=======
-## {Josh Harris}
-Research, reporting, business capabilities, and Coding.
->>>>>>>:
 
+>>>>>>>
+I will be one of the main coders along with Ben Sack.  We will be developing the overall fucntionality and design of our idea
 - iOS App Development.
   - I will enroll in a training course for iOS app development.  The course through Pluralsight should take about 10 hours.
   - The traing course is on pluralsight
