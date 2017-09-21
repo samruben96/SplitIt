@@ -1,17 +1,17 @@
 # Team Training Plan
 Below you will find each of our training plans.
 
-## {Member 1 Name}
-Explain your main role on the project here.
+## {Sam Ruben}
+I will be one of the main coders along with Ben Sack.  We will be developing the overall functionaly and design of our idea
 
-- Training Item 1.
-  - What I will be doing and how long it will take.
-  - Where the training resource is.
+- iOS App Development.
+  - I will enroll in a training course for iOS app development.  The course through Pluralsight should take about 10 hours.
+  - The traing course is on pluralsight
 
-- Training Item 2.
-  - What I will be doing and how long it will take.
-  - Where the training resource is.
+- Web Development.
+  - I already have some knowledge of web development, but i need to fresehn up.  I will use codeacademy which has a 6 hour course.
+  - The traing will take place on codeacademy.com
 
-- Training Item N.
-  - What I will be doing and how long it will take.
-  - Where the training resource is.
+- Data Management
+  - I need to learn more about database management and SQL.  Code academy has a course which takes about 7 hours.
+  - The training will take place on codeacademy.
