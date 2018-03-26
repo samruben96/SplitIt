@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AC80A902030CFC100AD4068 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AC80A8F2030CFC100AD4068 /* Info.plist */; };
+		801CF13820695E9400675594 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801CF13720695E9400675594 /* MenuViewController.swift */; };
+		801CF13A2069608500675594 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801CF1392069608500675594 /* ContactViewController.swift */; };
+		801CF13E2069619900675594 /* ContactStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801CF13D2069619900675594 /* ContactStruct.swift */; };
+		801CF15820696B3E00675594 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801CF15720696B3E00675594 /* CameraViewController.swift */; };
+		801CF15A20696E5600675594 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801CF15920696E5600675594 /* Images.xcassets */; };
+		8083E4342019073300F73DB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083E4332019073300F73DB8 /* AppDelegate.swift */; };
+		8083E4362019073300F73DB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083E4352019073300F73DB8 /* ViewController.swift */; };
+		8083E4392019073300F73DB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8083E4372019073300F73DB8 /* Main.storyboard */; };
+		8083E43B2019073300F73DB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8083E43A2019073300F73DB8 /* Assets.xcassets */; };
+		8083E43E2019073300F73DB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8083E43C2019073300F73DB8 /* LaunchScreen.storyboard */; };
+		8083E4492019073300F73DB8 /* SquaredUp_V1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083E4482019073300F73DB8 /* SquaredUp_V1Tests.swift */; };
+		8083E4542019073300F73DB8 /* SquaredUp_V1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083E4532019073300F73DB8 /* SquaredUp_V1UITests.swift */; };
+		8083E462201908F800F73DB8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083E461201908F800F73DB8 /* HomeViewController.swift */; };
+		8083E464201909DC00F73DB8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083E463201909DC00F73DB8 /* RegisterViewController.swift */; };
+		8083E46E201FC14E00F73DB8 /* FrontScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083E46D201FC14E00F73DB8 /* FrontScreenViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8083E4452019073300F73DB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8083E4282019073200F73DB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8083E42F2019073200F73DB8;
+			remoteInfo = "SquaredUp V1";
+		};
+		8083E4502019073300F73DB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8083E4282019073200F73DB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8083E42F2019073200F73DB8;
+			remoteInfo = "SquaredUp V1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AC80A8F2030CFC100AD4068 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		801CF13720695E9400675594 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		801CF1392069608500675594 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		801CF13D2069619900675594 /* ContactStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactStruct.swift; sourceTree = "<group>"; };
+		801CF15720696B3E00675594 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		801CF15920696E5600675594 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8083E4302019073200F73DB8 /* SquaredUp V1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SquaredUp V1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8083E4332019073300F73DB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8083E4352019073300F73DB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8083E4382019073300F73DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8083E43A2019073300F73DB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8083E43D2019073300F73DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8083E4442019073300F73DB8 /* SquaredUp V1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SquaredUp V1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8083E4482019073300F73DB8 /* SquaredUp_V1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaredUp_V1Tests.swift; sourceTree = "<group>"; };
+		8083E44A2019073300F73DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8083E44F2019073300F73DB8 /* SquaredUp V1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SquaredUp V1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8083E4532019073300F73DB8 /* SquaredUp_V1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaredUp_V1UITests.swift; sourceTree = "<group>"; };
+		8083E4552019073300F73DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8083E461201908F800F73DB8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8083E463201909DC00F73DB8 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		8083E46D201FC14E00F73DB8 /* FrontScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontScreenViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8083E42D2019073200F73DB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8083E4412019073300F73DB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8083E44C2019073300F73DB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8083E4272019073200F73DB8 = {
+			isa = PBXGroup;
+			children = (
+				8083E4322019073200F73DB8 /* SquaredUp V1 */,
+				8083E4472019073300F73DB8 /* SquaredUp V1Tests */,
+				8083E4522019073300F73DB8 /* SquaredUp V1UITests */,
+				8083E4312019073200F73DB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8083E4312019073200F73DB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8083E4302019073200F73DB8 /* SquaredUp V1.app */,
+				8083E4442019073300F73DB8 /* SquaredUp V1Tests.xctest */,
+				8083E44F2019073300F73DB8 /* SquaredUp V1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8083E4322019073200F73DB8 /* SquaredUp V1 */ = {
+			isa = PBXGroup;
+			children = (
+				8083E4332019073300F73DB8 /* AppDelegate.swift */,
+				8083E4352019073300F73DB8 /* ViewController.swift */,
+				8083E4372019073300F73DB8 /* Main.storyboard */,
+				8083E46D201FC14E00F73DB8 /* FrontScreenViewController.swift */,
+				8083E43A2019073300F73DB8 /* Assets.xcassets */,
+				8083E43C2019073300F73DB8 /* LaunchScreen.storyboard */,
+				3AC80A8F2030CFC100AD4068 /* Info.plist */,
+				8083E461201908F800F73DB8 /* HomeViewController.swift */,
+				8083E463201909DC00F73DB8 /* RegisterViewController.swift */,
+				801CF13720695E9400675594 /* MenuViewController.swift */,
+				801CF1392069608500675594 /* ContactViewController.swift */,
+				801CF13D2069619900675594 /* ContactStruct.swift */,
+				801CF15720696B3E00675594 /* CameraViewController.swift */,
+				801CF15920696E5600675594 /* Images.xcassets */,
+			);
+			path = "SquaredUp V1";
+			sourceTree = "<group>";
+		};
+		8083E4472019073300F73DB8 /* SquaredUp V1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8083E4482019073300F73DB8 /* SquaredUp_V1Tests.swift */,
+				8083E44A2019073300F73DB8 /* Info.plist */,
+			);
+			path = "SquaredUp V1Tests";
+			sourceTree = "<group>";
+		};
+		8083E4522019073300F73DB8 /* SquaredUp V1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8083E4532019073300F73DB8 /* SquaredUp_V1UITests.swift */,
+				8083E4552019073300F73DB8 /* Info.plist */,
+			);
+			path = "SquaredUp V1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8083E42F2019073200F73DB8 /* SquaredUp V1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8083E4582019073300F73DB8 /* Build configuration list for PBXNativeTarget "SquaredUp V1" */;
+			buildPhases = (
+				8083E42C2019073200F73DB8 /* Sources */,
+				8083E42D2019073200F73DB8 /* Frameworks */,
+				8083E42E2019073200F73DB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SquaredUp V1";
+			productName = "SquaredUp V1";
+			productReference = 8083E4302019073200F73DB8 /* SquaredUp V1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8083E4432019073300F73DB8 /* SquaredUp V1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8083E45B2019073300F73DB8 /* Build configuration list for PBXNativeTarget "SquaredUp V1Tests" */;
+			buildPhases = (
+				8083E4402019073300F73DB8 /* Sources */,
+				8083E4412019073300F73DB8 /* Frameworks */,
+				8083E4422019073300F73DB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8083E4462019073300F73DB8 /* PBXTargetDependency */,
+			);
+			name = "SquaredUp V1Tests";
+			productName = "SquaredUp V1Tests";
+			productReference = 8083E4442019073300F73DB8 /* SquaredUp V1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8083E44E2019073300F73DB8 /* SquaredUp V1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8083E45E2019073300F73DB8 /* Build configuration list for PBXNativeTarget "SquaredUp V1UITests" */;
+			buildPhases = (
+				8083E44B2019073300F73DB8 /* Sources */,
+				8083E44C2019073300F73DB8 /* Frameworks */,
+				8083E44D2019073300F73DB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8083E4512019073300F73DB8 /* PBXTargetDependency */,
+			);
+			name = "SquaredUp V1UITests";
+			productName = "SquaredUp V1UITests";
+			productReference = 8083E44F2019073300F73DB8 /* SquaredUp V1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8083E4282019073200F73DB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sam Ruben";
+				TargetAttributes = {
+					8083E42F2019073200F73DB8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8083E4432019073300F73DB8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8083E42F2019073200F73DB8;
+					};
+					8083E44E2019073300F73DB8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8083E42F2019073200F73DB8;
+					};
+				};
+			};
+			buildConfigurationList = 8083E42B2019073200F73DB8 /* Build configuration list for PBXProject "SquaredUp V1" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8083E4272019073200F73DB8;
+			productRefGroup = 8083E4312019073200F73DB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8083E42F2019073200F73DB8 /* SquaredUp V1 */,
+				8083E4432019073300F73DB8 /* SquaredUp V1Tests */,
+				8083E44E2019073300F73DB8 /* SquaredUp V1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8083E42E2019073200F73DB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC80A902030CFC100AD4068 /* Info.plist in Resources */,
+				801CF15A20696E5600675594 /* Images.xcassets in Resources */,
+				8083E43E2019073300F73DB8 /* LaunchScreen.storyboard in Resources */,
+				8083E43B2019073300F73DB8 /* Assets.xcassets in Resources */,
+				8083E4392019073300F73DB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8083E4422019073300F73DB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8083E44D2019073300F73DB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8083E42C2019073200F73DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8083E46E201FC14E00F73DB8 /* FrontScreenViewController.swift in Sources */,
+				801CF13A2069608500675594 /* ContactViewController.swift in Sources */,
+				801CF13820695E9400675594 /* MenuViewController.swift in Sources */,
+				8083E4362019073300F73DB8 /* ViewController.swift in Sources */,
+				8083E4342019073300F73DB8 /* AppDelegate.swift in Sources */,
+				8083E462201908F800F73DB8 /* HomeViewController.swift in Sources */,
+				8083E464201909DC00F73DB8 /* RegisterViewController.swift in Sources */,
+				801CF13E2069619900675594 /* ContactStruct.swift in Sources */,
+				801CF15820696B3E00675594 /* CameraViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8083E4402019073300F73DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8083E4492019073300F73DB8 /* SquaredUp_V1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8083E44B2019073300F73DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8083E4542019073300F73DB8 /* SquaredUp_V1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8083E4462019073300F73DB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8083E42F2019073200F73DB8 /* SquaredUp V1 */;
+			targetProxy = 8083E4452019073300F73DB8 /* PBXContainerItemProxy */;
+		};
+		8083E4512019073300F73DB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8083E42F2019073200F73DB8 /* SquaredUp V1 */;
+			targetProxy = 8083E4502019073300F73DB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8083E4372019073300F73DB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8083E4382019073300F73DB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8083E43C2019073300F73DB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8083E43D2019073300F73DB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8083E4562019073300F73DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8083E4572019073300F73DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8083E4592019073300F73DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SquaredUp V1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Capstone.SquaredUp-V1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8083E45A2019073300F73DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SquaredUp V1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Capstone.SquaredUp-V1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8083E45C2019073300F73DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SquaredUp V1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Capstone.SquaredUp-V1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SquaredUp V1.app/SquaredUp V1";
+			};
+			name = Debug;
+		};
+		8083E45D2019073300F73DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SquaredUp V1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Capstone.SquaredUp-V1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SquaredUp V1.app/SquaredUp V1";
+			};
+			name = Release;
+		};
+		8083E45F2019073300F73DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SquaredUp V1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Capstone.SquaredUp-V1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SquaredUp V1";
+			};
+			name = Debug;
+		};
+		8083E4602019073300F73DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SquaredUp V1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Capstone.SquaredUp-V1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SquaredUp V1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8083E42B2019073200F73DB8 /* Build configuration list for PBXProject "SquaredUp V1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8083E4562019073300F73DB8 /* Debug */,
+				8083E4572019073300F73DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8083E4582019073300F73DB8 /* Build configuration list for PBXNativeTarget "SquaredUp V1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8083E4592019073300F73DB8 /* Debug */,
+				8083E45A2019073300F73DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8083E45B2019073300F73DB8 /* Build configuration list for PBXNativeTarget "SquaredUp V1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8083E45C2019073300F73DB8 /* Debug */,
+				8083E45D2019073300F73DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8083E45E2019073300F73DB8 /* Build configuration list for PBXNativeTarget "SquaredUp V1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8083E45F2019073300F73DB8 /* Debug */,
+				8083E4602019073300F73DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8083E4282019073200F73DB8 /* Project object */;
+}
