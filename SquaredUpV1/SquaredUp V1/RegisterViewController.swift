@@ -14,9 +14,14 @@ class RegisterViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var retypePasswordTextField: UITextField!
+    @IBOutlet weak var roundedSignUp: UIButton!
+    @IBOutlet weak var roundedCancel: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        roundedSignUp.layer.cornerRadius = 4
+        roundedCancel.layer.cornerRadius = 4
 
         // Do any additional setup after loading the view.
     }

@@ -11,9 +11,13 @@ import UIKit
 class HomeViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var roundedSignIn: UIButton!
+    @IBOutlet weak var roundedRegister: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        roundedSignIn.layer.cornerRadius = 4
+        roundedRegister.layer.cornerRadius = 4
 
         // Do any additional setup after loading the view.
     }
