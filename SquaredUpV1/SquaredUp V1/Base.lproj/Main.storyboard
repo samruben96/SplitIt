@@ -98,6 +98,7 @@
                         <outlet property="passwordTextField" destination="clL-Wu-Wen" id="3wV-zf-XlU"/>
                         <outlet property="roundedRegister" destination="fUy-F9-i7X" id="vkA-jb-M91"/>
                         <outlet property="roundedSignIn" destination="B2Q-Qg-NoD" id="saJ-s1-868"/>
+                        <segue destination="efp-a4-bTz" kind="show" identifier="segue" id="XQK-Wb-iIt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -128,7 +129,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KfC-bW-pAT">
-                                <rect key="frame" x="7" y="309" width="180" height="48"/>
+                                <rect key="frame" x="15" y="333" width="342" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.37751084930000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="17"/>
@@ -137,7 +138,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOO-Gk-52b">
-                                <rect key="frame" x="187" y="309" width="180" height="48"/>
+                                <rect key="frame" x="16" y="410" width="343" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.37751084930000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="17"/>
@@ -146,12 +147,12 @@
                                 </state>
                             </button>
                             <searchBar contentMode="redraw" fixedFrame="YES" placeholder="Search for someone..." translatesAutoresizingMaskIntoConstraints="NO" id="SKz-Pp-QuW">
-                                <rect key="frame" x="0.0" y="386" width="375" height="56"/>
+                                <rect key="frame" x="0.0" y="505" width="375" height="56"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Balance: Make Editable " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HmK-fD-07F">
-                                <rect key="frame" x="14.528055244756615" y="223" width="343.00000000000006" height="29"/>
+                                <rect key="frame" x="16" y="269" width="343.00000000000006" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="15"/>
                                 <color key="textColor" red="0.0" green="0.37751084930000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -162,14 +163,31 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="user"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B4R-zx-i5d">
+                                <rect key="frame" x="17" y="225" width="341" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F3j-0i-BL0">
+                                <rect key="frame" x="17" y="181" width="341" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.77093660549999998" green="0.90920498699999996" blue="0.67558320699999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="gdb-MC-mAo"/>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="B4R-zx-i5d" id="hsP-8J-mD3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="le6-Lb-DgV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="48.799999999999997" y="794.75262368815595"/>
+            <point key="canvasLocation" x="-132" y="805.54722638680664"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="wXo-5p-zgt">

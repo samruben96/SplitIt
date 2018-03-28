@@ -36,6 +36,13 @@ class HomeViewController: UIViewController {
 
     @IBAction func SignInButtonTapped(_ sender: UIButton) {
         print("ok")
+        if emailTextField.text != ""
+        {
+            performSegue(withIdentifier: "segue", sender: self)
+        
+        }
+        
+        
         
         // Read Values
         let email = emailTextField.text
@@ -130,6 +137,11 @@ class HomeViewController: UIViewController {
         
         
     } //sign in button end
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        var frontController = segue.destination as! FrontScreenViewController
+        frontController.myString = emailTextField.text!
+    }
     
     func removeActivityIndicator(activityIndicator: UIActivityIndicatorView) {
         DispatchQueue.main.async
