@@ -11,8 +11,8 @@
 		801CF13820695E9400675594 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801CF13720695E9400675594 /* MenuViewController.swift */; };
 		801CF13A2069608500675594 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801CF1392069608500675594 /* ContactViewController.swift */; };
 		801CF13E2069619900675594 /* ContactStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801CF13D2069619900675594 /* ContactStruct.swift */; };
-		801CF15820696B3E00675594 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801CF15720696B3E00675594 /* CameraViewController.swift */; };
 		801CF15A20696E5600675594 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801CF15920696E5600675594 /* Images.xcassets */; };
+		803DE2522072C1D100D91087 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803DE2512072C1D100D91087 /* CameraViewController.swift */; };
 		8083E4342019073300F73DB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083E4332019073300F73DB8 /* AppDelegate.swift */; };
 		8083E4362019073300F73DB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083E4352019073300F73DB8 /* ViewController.swift */; };
 		8083E4392019073300F73DB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8083E4372019073300F73DB8 /* Main.storyboard */; };
@@ -47,8 +47,8 @@
 		801CF13720695E9400675594 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		801CF1392069608500675594 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		801CF13D2069619900675594 /* ContactStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactStruct.swift; sourceTree = "<group>"; };
-		801CF15720696B3E00675594 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		801CF15920696E5600675594 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		803DE2512072C1D100D91087 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		8083E4302019073200F73DB8 /* SquaredUp V1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SquaredUp V1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8083E4332019073300F73DB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8083E4352019073300F73DB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -126,8 +126,8 @@
 				801CF13720695E9400675594 /* MenuViewController.swift */,
 				801CF1392069608500675594 /* ContactViewController.swift */,
 				801CF13D2069619900675594 /* ContactStruct.swift */,
-				801CF15720696B3E00675594 /* CameraViewController.swift */,
 				801CF15920696E5600675594 /* Images.xcassets */,
+				803DE2512072C1D100D91087 /* CameraViewController.swift */,
 			);
 			path = "SquaredUp V1";
 			sourceTree = "<group>";
@@ -294,7 +294,7 @@
 				8083E462201908F800F73DB8 /* HomeViewController.swift in Sources */,
 				8083E464201909DC00F73DB8 /* RegisterViewController.swift in Sources */,
 				801CF13E2069619900675594 /* ContactStruct.swift in Sources */,
-				801CF15820696B3E00675594 /* CameraViewController.swift in Sources */,
+				803DE2522072C1D100D91087 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M62B55665F;
 				INFOPLIST_FILE = "SquaredUp V1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Capstone.SquaredUp-V1";
@@ -475,6 +476,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M62B55665F;
 				INFOPLIST_FILE = "SquaredUp V1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Capstone.SquaredUp-V1";
