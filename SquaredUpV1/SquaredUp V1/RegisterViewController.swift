@@ -22,6 +22,9 @@ class RegisterViewController: UIViewController {
         super.viewDidLoad()
         roundedSignUp.layer.cornerRadius = 4
         roundedCancel.layer.cornerRadius = 4
+        
+    
+      
 
         // Do any additional setup after loading the view.
     }
@@ -30,6 +33,10 @@ class RegisterViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    
+    
     func displayAlertMessage(userMessage: String) -> Void {
         DispatchQueue.main.async
             {
@@ -60,6 +67,8 @@ class RegisterViewController: UIViewController {
         print("Cancel")
         self.dismiss(animated: true, completion: nil)
     }
+    
+    
     @IBAction func signUpButtonTapped(_ sender: Any) {
         print("sign up")
         // Validate Required Filed Are Not Empty

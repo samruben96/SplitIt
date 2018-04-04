@@ -38,11 +38,9 @@ class MenuViewController: UIViewController {
         let frontScreenViewController = self.storyboard?.instantiateViewController(withIdentifier: "FrontScreenViewController") as! FrontScreenViewController
         self.present(frontScreenViewController, animated: true)
     }
-    @IBAction func groupButtonTapped(_ sender: Any) {
-        print("hi")
-       
-        
-    }
+
+  
+    
     
     
     /*

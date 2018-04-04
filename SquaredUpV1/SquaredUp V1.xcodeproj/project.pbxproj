@@ -23,6 +23,7 @@
 		8083E462201908F800F73DB8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083E461201908F800F73DB8 /* HomeViewController.swift */; };
 		8083E464201909DC00F73DB8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083E463201909DC00F73DB8 /* RegisterViewController.swift */; };
 		8083E46E201FC14E00F73DB8 /* FrontScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083E46D201FC14E00F73DB8 /* FrontScreenViewController.swift */; };
+		80E36D4420754CE5008C92DB /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E36D4320754CE5008C92DB /* GroupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		8083E461201908F800F73DB8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8083E463201909DC00F73DB8 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		8083E46D201FC14E00F73DB8 /* FrontScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontScreenViewController.swift; sourceTree = "<group>"; };
+		80E36D4320754CE5008C92DB /* GroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				801CF13D2069619900675594 /* ContactStruct.swift */,
 				801CF15920696E5600675594 /* Images.xcassets */,
 				803DE2512072C1D100D91087 /* CameraViewController.swift */,
+				80E36D4320754CE5008C92DB /* GroupViewController.swift */,
 			);
 			path = "SquaredUp V1";
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				801CF13A2069608500675594 /* ContactViewController.swift in Sources */,
 				801CF13820695E9400675594 /* MenuViewController.swift in Sources */,
 				8083E4362019073300F73DB8 /* ViewController.swift in Sources */,
+				80E36D4420754CE5008C92DB /* GroupViewController.swift in Sources */,
 				8083E4342019073300F73DB8 /* AppDelegate.swift in Sources */,
 				8083E462201908F800F73DB8 /* HomeViewController.swift in Sources */,
 				8083E464201909DC00F73DB8 /* RegisterViewController.swift in Sources */,
