@@ -1,10 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="MarkerFeltWide.ttf">
+            <string>MarkerFelt-Wide</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="EHf-IW-A2E">
@@ -13,13 +22,47 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background1" translatesAutoresizingMaskIntoConstraints="NO" id="AND-d7-fQL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="DhM-re-ZEX">
+                                <rect key="frame" x="67" y="201" width="240" height="351"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SquaredUp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XXO-AP-ryc">
+                                <rect key="frame" x="81" y="73" width="213" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="sFP-iO-mfX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="43"/>
+                                <color key="textColor" red="0.0" green="0.1654185557" blue="0.1634922721" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="AND-d7-fQL" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="2sJ-Qt-ahX"/>
+                            <constraint firstItem="DhM-re-ZEX" firstAttribute="top" secondItem="XXO-AP-ryc" secondAttribute="bottom" constant="40" id="9ty-lS-wLo"/>
+                            <constraint firstItem="XXO-AP-ryc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="53" id="Mwl-Mg-x78"/>
+                            <constraint firstItem="XXO-AP-ryc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="81" id="OGO-nQ-e1M"/>
+                            <constraint firstItem="DhM-re-ZEX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="Sbu-km-LJC"/>
+                            <constraint firstItem="AND-d7-fQL" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Uk0-uq-F5Y"/>
+                            <constraint firstItem="XXO-AP-ryc" firstAttribute="centerX" secondItem="DhM-re-ZEX" secondAttribute="centerX" id="mHf-fh-7IE"/>
+                            <constraint firstAttribute="trailing" secondItem="AND-d7-fQL" secondAttribute="trailing" id="tzi-sG-JeQ"/>
+                            <constraint firstItem="AND-d7-fQL" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="vtq-wN-mUv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="DhM-re-ZEX" secondAttribute="bottom" constant="115" id="wdg-Mw-P2o"/>
+                            <constraint firstItem="AND-d7-fQL" firstAttribute="centerX" secondItem="DhM-re-ZEX" secondAttribute="centerX" id="yKo-tr-gFf"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Logo" width="538" height="1024"/>
+        <image name="background1" width="325" height="441"/>
+    </resources>
 </document>
