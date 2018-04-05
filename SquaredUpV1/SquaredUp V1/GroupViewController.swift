@@ -17,6 +17,23 @@ class GroupViewController: UIViewController {
     
     var grp = [String]()
     
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        //getting the index path of selected row
+        let indexPath = tableView.indexPathForSelectedRow
+        
+        //getting the current cell from the index path
+        let currentCell = tableView.cellForRow(at: indexPath!)! as UITableViewCell
+        
+        //getting the text of that cell
+        let currentItem = currentCell.textLabel!.text
+        
+        let alertController = UIAlertController(title: "Simplified iOS", message: "You Selected " + currentItem! , preferredStyle: .alert)
+        let defaultAction = UIAlertAction(title: "Close Alert", style: .default, handler: nil)
+        alertController.addAction(defaultAction)
+        
+        present(alertController, animated: true, completion: nil)
+    }
+    
     
     
     @IBAction func backButton(_ sender: Any) {
@@ -55,9 +72,16 @@ class GroupViewController: UIViewController {
         
         
     }
+    
+    
+    
+     
+    
+    
    
 
 }
+
 
 extension GroupViewController: UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {

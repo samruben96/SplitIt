@@ -21,6 +21,7 @@ class MenuViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
     @IBAction func contactButtonTapped(_ sender: Any) {
         print("hi")
         let contactViewController = self.storyboard?.instantiateViewController(withIdentifier: "ContactViewController") as! ContactViewController
