@@ -1,14 +1,14 @@
-# Project Title
+# SquaredUp
 A two to three sentence description of the project goes here.
 
 
 | Key   |      Value    |
 |----------|-------------|
-| Platform | Web, iOS, Android, Hardware (or combination) |
+| Platform |  iOS |
 | AI | {Put your AI's Name here in Last, First format} {AI email} |
 
-# Team
-- Last, First (Role) email
+# 52
+- Ruben, Sam (Role) sjruben@indiana.edu
 - Last, First (Role) email
 - Last, First (Role) email
 
