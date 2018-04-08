@@ -16,6 +16,12 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
 
         // Do any additional setup after loading the view.
     }
+    @IBAction func backButton(_ sender: Any) {
+        let menuViewController = self.storyboard?.instantiateViewController(withIdentifier: "MenuViewController") as! MenuViewController
+        self.present(menuViewController, animated: true)
+        
+    }
+    
 
     @IBAction func chooseImage(_ sender: Any) {
         
