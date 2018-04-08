@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import BraintreeDropIn
+import Braintree
 
 class FrontScreenViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     var myString = String()
     
-    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,12 +29,20 @@ class FrontScreenViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+
+    @IBAction func sentButtonTapped(_ sender: Any) {
+        let paymentViewController = self.storyboard?.instantiateViewController(withIdentifier: "PaymentViewController") as! PaymentViewController
+        self.present(paymentViewController, animated: true)
+    }
+    
+    
     @IBAction func menuButtonTapped(_ sender: Any) {
         print("hi")
         let menuViewController = self.storyboard?.instantiateViewController(withIdentifier: "MenuViewController") as! MenuViewController
         self.present(menuViewController, animated: true)
     }
     
+
     
     /*
     // MARK: - Navigation

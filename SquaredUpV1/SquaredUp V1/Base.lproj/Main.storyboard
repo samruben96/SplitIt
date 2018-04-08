@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="MarkerFeltWide.ttf">
-            <string>MarkerFelt-Wide</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -160,7 +155,82 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="48.799999999999997" y="91.304347826086968"/>
+            <point key="canvasLocation" x="-29" y="42"/>
+        </scene>
+        <!--Payment View Controller-->
+        <scene sceneID="ak4-gv-8E9">
+            <objects>
+                <viewController storyboardIdentifier="PaymentViewController" id="Ckq-qN-HFD" customClass="PaymentViewController" customModule="SquaredUp_V1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b8W-Kq-qYz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="    $" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abZ-Sa-l9R">
+                                <rect key="frame" x="58" y="186" width="259" height="49"/>
+                                <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <color key="textColor" red="0.2784313725" green="0.30196078430000001" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="..." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dws-g5-Uni">
+                                <rect key="frame" x="73" y="195" width="75" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="rRM-rA-7f1"/>
+                                </constraints>
+                                <color key="textColor" red="0.2784313725" green="0.30196078430000001" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="phonePad" keyboardAppearance="alert"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mZn-Wf-cDE">
+                                <rect key="frame" x="58" y="253" width="251" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5hn-Lh-KCh"/>
+                                </constraints>
+                                <state key="normal" title="Send Payment"/>
+                                <connections>
+                                    <action selector="pay:" destination="Ckq-qN-HFD" eventType="touchUpInside" id="lHW-Kj-f2l"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Show Your Support by Making a Donation Today!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OTD-oO-Nt9">
+                                <rect key="frame" x="77" y="108" width="221" height="53"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <color key="textColor" red="0.096084065735340118" green="0.51666146516799927" blue="0.99859839677810669" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" hidesWhenStopped="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="Wq4-hp-RdI">
+                                <rect key="frame" x="173" y="307" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OTD-oO-Nt9" firstAttribute="centerX" secondItem="dws-g5-Uni" secondAttribute="centerX" id="A0b-hi-Xpw"/>
+                            <constraint firstItem="dws-g5-Uni" firstAttribute="centerX" secondItem="mZn-Wf-cDE" secondAttribute="centerX" id="GMn-Ok-ueO"/>
+                            <constraint firstItem="abZ-Sa-l9R" firstAttribute="centerY" secondItem="dws-g5-Uni" secondAttribute="centerY" id="PDl-ZT-5Cw"/>
+                            <constraint firstItem="dws-g5-Uni" firstAttribute="leading" secondItem="kiT-1f-ZEL" secondAttribute="leading" constant="130" id="Vcw-Jj-QlZ"/>
+                            <constraint firstItem="abZ-Sa-l9R" firstAttribute="top" secondItem="OTD-oO-Nt9" secondAttribute="bottom" constant="47" id="Xog-o6-xCp"/>
+                            <constraint firstItem="mZn-Wf-cDE" firstAttribute="leading" secondItem="kiT-1f-ZEL" secondAttribute="leading" constant="118" id="Z1t-wk-Dit"/>
+                            <constraint firstItem="mZn-Wf-cDE" firstAttribute="top" secondItem="dws-g5-Uni" secondAttribute="bottom" constant="39" id="d1H-yk-egp"/>
+                            <constraint firstItem="OTD-oO-Nt9" firstAttribute="top" secondItem="kiT-1f-ZEL" secondAttribute="top" constant="93" id="gAk-aG-SEZ"/>
+                            <constraint firstItem="kiT-1f-ZEL" firstAttribute="bottom" secondItem="Wq4-hp-RdI" secondAttribute="bottom" constant="310" id="kA0-f1-KhS"/>
+                            <constraint firstItem="mZn-Wf-cDE" firstAttribute="centerX" secondItem="Wq4-hp-RdI" secondAttribute="centerX" id="nZu-3Y-Jzm"/>
+                            <constraint firstItem="abZ-Sa-l9R" firstAttribute="leading" secondItem="kiT-1f-ZEL" secondAttribute="leading" constant="114" id="pEh-1a-Ok9"/>
+                            <constraint firstItem="OTD-oO-Nt9" firstAttribute="leading" secondItem="kiT-1f-ZEL" secondAttribute="leading" constant="57" id="pzg-Q5-Nuo"/>
+                            <constraint firstItem="abZ-Sa-l9R" firstAttribute="centerX" secondItem="dws-g5-Uni" secondAttribute="centerX" id="t2p-h6-bLX"/>
+                            <constraint firstItem="Wq4-hp-RdI" firstAttribute="top" secondItem="mZn-Wf-cDE" secondAttribute="bottom" constant="16" id="uBy-x4-UTg"/>
+                            <constraint firstItem="mZn-Wf-cDE" firstAttribute="top" secondItem="abZ-Sa-l9R" secondAttribute="bottom" constant="29" id="wfJ-cO-nBU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="kiT-1f-ZEL"/>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="Wq4-hp-RdI" id="85R-u6-0z6"/>
+                        <outlet property="amountTextField" destination="dws-g5-Uni" id="jQs-Mn-fHf"/>
+                        <outlet property="currencyLabel" destination="abZ-Sa-l9R" id="nJu-ry-OtU"/>
+                        <outlet property="donateButton" destination="mZn-Wf-cDE" id="69h-Ke-czi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fB7-ii-r4i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-556" y="817.24137931034488"/>
         </scene>
         <!--Front Screen View Controller-->
         <scene sceneID="Qnp-DT-WRt">
@@ -206,6 +276,9 @@
                                 <state key="normal" title="Send Payment">
                                     <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="sentButtonTapped:" destination="efp-a4-bTz" eventType="touchUpInside" id="EtF-GL-H2i"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOO-Gk-52b">
                                 <rect key="frame" x="16" y="430" width="343" height="48"/>
@@ -292,7 +365,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="le6-Lb-DgV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-132" y="805.54722638680664"/>
+            <point key="canvasLocation" x="176" y="819"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="wXo-5p-zgt">
@@ -398,7 +471,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bBJ-2m-N6N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="968.79999999999995" y="794.75262368815595"/>
+            <point key="canvasLocation" x="969" y="819"/>
         </scene>
         <!--Contact View Controller-->
         <scene sceneID="EVJ-zX-2pp">
@@ -501,7 +574,7 @@
                                 <color key="textColor" red="0.0" green="0.1654185557" blue="0.1634922721" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="15t-as-Hxf">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="15t-as-Hxf">
                                 <rect key="frame" x="16" y="125" width="150" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="p1n-yA-ZQm"/>
@@ -510,13 +583,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="Bcj-Qh-ecw">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="Bcj-Qh-ecw">
                                 <rect key="frame" x="182" y="125" width="150" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="vDg-ZR-4co">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="vDg-ZR-4co">
                                 <rect key="frame" x="16" y="205" width="316" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="wcb-13-JaP"/>
@@ -525,7 +598,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Retype Password" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="9Re-AW-wFg">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Retype Password" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="9Re-AW-wFg">
                                 <rect key="frame" x="16" y="245" width="316" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="dLR-hl-4Sh"/>
@@ -534,7 +607,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <button contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ifg-XR-dXx">
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ifg-XR-dXx">
                                 <rect key="frame" x="131" y="338" width="112" height="63"/>
                                 <color key="backgroundColor" red="0.0" green="0.1654185557" blue="0.1634922721" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -548,7 +621,7 @@
                                     <action selector="signUpButtonTapped:" destination="vTM-WF-uMz" eventType="touchUpInside" id="wwk-wl-jEN"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="uNG-58-QM6">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="uNG-58-QM6">
                                 <rect key="frame" x="16" y="165" width="316" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="aye-ag-Ljw"/>
@@ -557,7 +630,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N15-EX-qv3">
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N15-EX-qv3">
                                 <rect key="frame" x="131" y="476" width="112" height="63"/>
                                 <color key="backgroundColor" red="0.0" green="0.1654185557" blue="0.1634922721" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="17"/>
