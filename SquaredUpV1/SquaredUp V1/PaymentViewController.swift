@@ -30,7 +30,12 @@ class PaymentViewController: UIViewController {
         }
     }
     
-
+    @IBAction func backButton(_ sender: Any) {
+        let frontViewController = self.storyboard?.instantiateViewController(withIdentifier: "FrontScreenViewController") as! FrontScreenViewController
+        self.present(frontViewController, animated: true)
+        
+    }
+    
     
     let toKinizationKey = "sandbox_hxz4s6kb_prthbdk27mbjpsnq"
     
