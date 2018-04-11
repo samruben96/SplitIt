@@ -39,7 +39,15 @@ class MenuViewController: UIViewController {
         let frontScreenViewController = self.storyboard?.instantiateViewController(withIdentifier: "FrontScreenViewController") as! FrontScreenViewController
         self.present(frontScreenViewController, animated: true)
     }
-
+    
+    
+    @IBAction func payButtonTapped(_ sender: Any) {
+        print("hi")
+        let payViewController = self.storyboard?.instantiateViewController(withIdentifier: "PaymentViewController") as! PaymentViewController
+        self.present(payViewController, animated: true)
+        
+    }
+    
   
     
     
