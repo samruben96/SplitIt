@@ -156,8 +156,8 @@
 				801CF15920696E5600675594 /* Images.xcassets */,
 				803DE2512072C1D100D91087 /* CameraViewController.swift */,
 				80E36D4320754CE5008C92DB /* GroupViewController.swift */,
-				3A53017F20829AA4003CB7D9 /* HomeModel.swift */,
 				3A53018120829AAA003CB7D9 /* DetailViewController.swift */,
+				3A53017F20829AA4003CB7D9 /* HomeModel.swift */,
 				3A53017D20829A8E003CB7D9 /* LocationModel.swift */,
 				80ED20CF20829194001B2ECB /* BillsViewController.swift */,
 			);

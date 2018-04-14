@@ -34,6 +34,7 @@ class BillsViewController: UIViewController, UITableViewDataSource, UITableViewD
         
         feedItems = items
         self.listTableView.reloadData()
+        print(feedItems)
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -50,7 +51,7 @@ class BillsViewController: UIViewController, UITableViewDataSource, UITableViewD
         // Get the location to be shown
         let item: LocationModel = feedItems[indexPath.row] as! LocationModel
         // Get references to labels of cell
-        myCell.textLabel!.text = item.name
+        myCell.textLabel!.text = "Name: \(item.name!)  |  Bill: \(item.bill!)  |  Owe: \(item.owe!)  |  Paid:\(item.amount!)"
         
         return myCell
     }
