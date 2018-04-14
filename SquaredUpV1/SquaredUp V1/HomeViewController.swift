@@ -36,12 +36,6 @@ class HomeViewController: UIViewController {
 
     @IBAction func SignInButtonTapped(_ sender: UIButton) {
         print("ok")
-        if emailTextField.text != ""
-        {
-            performSegue(withIdentifier: "segue", sender: self)
-        
-        }
-        
         
         
         // Read Values
@@ -91,6 +85,8 @@ class HomeViewController: UIViewController {
                 let responseString = NSString(data: data!, encoding: String.Encoding.utf8.rawValue)
                 print("responseString = \(responseString!)")
             }
+            
+            
             // Parse Json Function
             do {
                 
@@ -99,13 +95,10 @@ class HomeViewController: UIViewController {
                     // Print out dictionary
                     print(convertedJsonIntoDict)
                     
-                    // Get value by key
-                    let userEmailValue = (convertedJsonIntoDict[0] as! NSDictionary)["user_email"] as? String
-                    print(userEmailValue!)
-                    
-                    if (userEmailValue == nil) {
-                        self.displayMessage(userMessage: "Invalid Credentials.")
-                    } else {
+                    if convertedJsonIntoDict.count > 0 {
+                        
+                        let userEmailValue = (convertedJsonIntoDict[0] as! NSDictionary)["user_email"] as? String
+                        print(userEmailValue!)
                         
                         DispatchQueue.main.async {
                             
@@ -113,10 +106,11 @@ class HomeViewController: UIViewController {
                             
                             self.present(FrontScreenViewController, animated: true)
                         }
+                    }else {
+                        self.displayMessage(userMessage: "Invalid Credentials.")
                     }
                     
-                }
-                else{
+                } else {
                     print("error")
                 }
             } catch let error as NSError {
