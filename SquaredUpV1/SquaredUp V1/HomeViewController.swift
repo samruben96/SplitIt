@@ -12,6 +12,7 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var roundedSignIn: UIButton!
+   
     @IBOutlet weak var roundedRegister: UIButton!
     
     override func viewDidLoad() {

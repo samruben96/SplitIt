@@ -9,13 +9,16 @@
 import UIKit
 
 class RegisterViewController: UIViewController {
+    
     @IBOutlet weak var firstNameTextField: UITextField!
     @IBOutlet weak var lastNameTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var retypePasswordTextField: UITextField!
+    
     @IBOutlet weak var roundedSignUp: UIButton!
     @IBOutlet weak var roundedCancel: UIButton!
+    
     
     
     override func viewDidLoad() {
@@ -69,7 +72,9 @@ class RegisterViewController: UIViewController {
     }
     
     
+    
     @IBAction func signUpButtonTapped(_ sender: Any) {
+        
         print("sign up")
         // Validate Required Filed Are Not Empty
         if (emailTextField.text?.isEmpty)! || (passwordTextField.text?.isEmpty)!

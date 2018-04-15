@@ -29,6 +29,17 @@ class BillsViewController: UIViewController, UITableViewDataSource, UITableViewD
         homeModel.downloadItems()
         
     }
+    @IBAction func backButton(_ sender: Any) {
+        let menuViewController = self.storyboard?.instantiateViewController(withIdentifier: "MenuViewController") as! MenuViewController
+        self.present(menuViewController, animated: true)
+    }
+    
+    @IBAction func addButtonTapped(_ sender: Any) {
+        let addBillViewController = self.storyboard?.instantiateViewController(withIdentifier: "AddBillViewController") as! AddBillViewController
+        self.present(addBillViewController, animated: true)
+    }
+    
+    
     
     func itemsDownloaded(items: NSArray) {
         
