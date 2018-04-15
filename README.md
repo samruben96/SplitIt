@@ -7,7 +7,7 @@ SquaredUp is a mobile peer-to-peer payment application, that allows users to kee
 | Platform |  iOS |
 | AI | Cheon, Eunjeong echeon@indiana.edu |
 
-# 52
+# Team 52
 - Ruben, Sam (Coder/Design) sjruben@indiana.edu
 - Zucker, Grant (Design/Implementation and Documentation) gzucker@indiana.edu
 - Sack, Ben (Lead Coder) bsack@indiana.edu
