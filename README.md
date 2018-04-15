@@ -1,16 +1,17 @@
 # SquaredUp
-A two to three sentence description of the project goes here.
+SquaredUp is a mobile peer-to-peer payment appliocation which allows users to keep track of debt between friends. SquaredUp has the ability to make groups, add friends, and view past transaction history. 
 
 
 | Key   |      Value    |
 |----------|-------------|
 | Platform |  iOS |
-| AI | {Put your AI's Name here in Last, First format} {AI email} |
+| AI | Cheon, Eunjeong echeon@indiana.edu |
 
 # 52
-- Ruben, Sam (Role) sjruben@indiana.edu
-- Last, First (Role) email
-- Last, First (Role) email
+- Ruben, Sam (Coder/Design) sjruben@indiana.edu
+- Zucker, Grant (Implementation) gzucker@indiana.edu
+- Sack, Ben (Lead Coder) email
+- Harris, Josh (Documentation/Design) harrjosh@indiana.edu
 
 # App Information
 [More App Information](app/README.md)
