@@ -1,4 +1,4 @@
-# {SquaredUp}
+# SquaredUp
 
 - Ability to register new users and sign into existing account. 
 - Can send payments or request payment via credit card or PayPal account. 
