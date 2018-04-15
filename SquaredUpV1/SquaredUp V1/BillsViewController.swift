@@ -67,14 +67,7 @@ class BillsViewController: UIViewController, UITableViewDataSource, UITableViewD
         return myCell
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        // Set selected location to var
-        selectedLocation = feedItems[indexPath.row] as! LocationModel
-        // Manually call segue to detail view controller
-        self.performSegue(withIdentifier: "detailSegue", sender: self)
-        
-    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
